@@ -28,7 +28,9 @@ The main abstractions that you will interact with include:
               also access individual vertices directly by ID
  - `Vertex` -- a single vertex in the graph, allowing you to iterate over all
                edges to neighbours
- - `Edge` -- a directed or undirected edge connecting two vertices in the graph
+ - `Edge` -- a directed or undirected edge connecting two vertices in the graph,
+             this is a concept only as edges are not maintained in memory as an
+             object as this is too costly for large graphs
  - `GraphReader` -- tools to build a `Graph` from a serialized format on disk
 
 ## Other Options

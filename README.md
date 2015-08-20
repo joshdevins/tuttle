@@ -14,7 +14,7 @@ weighted edges provided the inspiration and somehow the impetus as well.
  - support for both in and out-edges (directed) or undirected edges
  - supports arbitrary metadata on edges, for example weights
  - iteration over all nodes in the graph
- - iteration over all out-edges from a vertex
+ - iteration over all edges from a vertex
  - optional lookup by vertex ID
  - at a high level, agnostic to on-disk, serialization formats
  - for convenience, includes well-defined, serialization formats
